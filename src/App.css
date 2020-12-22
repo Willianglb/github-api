@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+.fundo {
+    background: linear-gradient(#dddddd , white);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cabecalo {
+    padding: 20px;
+    background: linear-gradient(rgb(162, 235, 248), #dddddd);
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.procura {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.perfil {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.botaoReposStarred {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reposStarred {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.infoRepos {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }

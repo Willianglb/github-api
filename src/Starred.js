@@ -1,6 +1,6 @@
 import React from "react";
 import { List, Icon} from "semantic-ui-react";
-import "../style.css";
+import "./style.css";
 
 const Starred = (props) => {
   const { listaStarred } = props;

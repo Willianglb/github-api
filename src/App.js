@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import {Form, Card, Image, Icon} from 'semantic-ui-react';
 import axios from "axios";
 import "./App.css";
-import Repos from "./Repos/Repos";
-import Starred from "./Starred/Starred";
+import Repos from "./Repos";
+import Starred from "./Starred";
 
 
 

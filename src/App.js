@@ -63,7 +63,7 @@ const App = () => {
       const resultadoStarred = await axios.get(
         `https://api.github.com/users/${userInput}/starred`
       );
-      console.log();
+      
       setListaStarred(resultadoStarred);
     } catch (err) {
       console.log(err);
@@ -90,7 +90,7 @@ const App = () => {
         <div className="perfil">
           <Card>
             <Image src={avatar} wrapped ui={false} alt={avatar} />
-            <Card.Content className="card-conteudo">
+            <Card.Content>
               <Card.Header>{name}</Card.Header>
               <Card.Meta>{userName}</Card.Meta>
             </Card.Content>

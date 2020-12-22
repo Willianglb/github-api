@@ -44,8 +44,6 @@ const App = () => {
     })  
   };
 
-
-
   const controladorListaRepos = async () => {
     try {
       const resultadoRepos = await axios.get(
@@ -69,6 +67,7 @@ const App = () => {
       console.log(err);
     }
   };
+  
   return (
     <div className="fundo">
         <div className="cabecalo">GitHub Api</div>

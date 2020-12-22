@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {Form, Card, Image, Icon, Button} from 'semantic-ui-react';
+import {Form, Card, Image, Icon} from 'semantic-ui-react';
 import axios from "axios";
 import "./App.css";
 import Repos from "./Repos/Repos";
